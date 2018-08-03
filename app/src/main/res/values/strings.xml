@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wordcard</string>
+    <string name="button_addWords">単語帳登録</string>
+    <string name="button_checkWords">登録単語確認</string>
+    <string name="button_exam">単語テスト</string>
+    <string name="button_setting">設定</string>
+    <string name="button_register">登録</string>
+</resources>
