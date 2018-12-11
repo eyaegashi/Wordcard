@@ -9,17 +9,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainPage">
+        <activity android:name=".activity.MainPageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddWordsPage" />
-        <activity android:name=".ComfirmWordsPage" />
-        <activity android:name=".ExamPage" />
-        <activity android:name=".SettingPage"></activity>
+        <activity
+            android:name=".activity.RegisterWordsPageActivity"
+            android:parentActivityName=".activity.MainPageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainPageActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ManageWordsPageActivity"
+            android:parentActivityName=".activity.MainPageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainPageActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ExamPageActivity"
+            android:parentActivityName=".activity.MainPageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainPageActivity" />
+        </activity>
+        <activity android:name=".activity.UpdateWordActivity"
+            android:parentActivityName=".activity.MainPageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainPageActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,8 +1,35 @@
 <resources>
+    <!--Page Title Text-->
     <string name="app_name">Wordcard</string>
+
+    <!--button Text-->
     <string name="button_addWords">単語帳登録</string>
     <string name="button_checkWords">登録単語確認</string>
     <string name="button_exam">単語テスト</string>
-    <string name="button_setting">設定</string>
+    <string name="button_startExam">単語テスト開始</string>
+    <string name="button_startExamAgain">もう一度テスト</string>
     <string name="button_register">登録</string>
+    <string name="button_update">更新</string>
+    <string name="button_ok">OK</string>
+    <string name="button_correct">覚えた</string>
+    <string name="button_fail">覚えていない</string>
+
+    <!--dialog text (complete dialog)-->
+    <string name="dialog_title_registComp">登録完了</string>
+    <string name="dialog_msg_registComp">単語登録が完了しました</string>
+    <string name="dialog_title_updateComp">更新完了</string>
+    <string name="dialog_msg_updateComp">単語の更新が完了しました</string>
+    <string name="dialog_title_deleteComp">削除</string>
+    <string name="dialog_msg_deleteComp">単語の削除が完了しました</string>
+    <string name="dialog_title_failed">失敗</string>
+    <string name="dialog_msg_failed">処理に失敗しました</string>
+
+    <!--dialog text (delete confirm dialog)-->
+    <string name="dialog_title_deleteCofirm">削除確認</string>
+    <string name="dialog_msg_deleteConfirm">単語を削除してよろしいですか</string>
+
+    <!--menu text-->
+    <string name="menu_select">選択</string>
+    <string name="menu_edit">編集</string>
+    <string name="menu_delete">削除</string>
 </resources>
